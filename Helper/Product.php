@@ -1,6 +1,6 @@
 <?php
 
-namespace StudioEmma\Core\Helper;
+namespace Trezo\Core\Helper;
 
 use Magento\Framework\App\Helper\AbstractHelper;
 use Magento\Framework\App\Helper\Context;

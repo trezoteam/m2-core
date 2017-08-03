@@ -6,6 +6,6 @@
 
 \Magento\Framework\Component\ComponentRegistrar::register(
     \Magento\Framework\Component\ComponentRegistrar::MODULE,
-    'StudioEmma_Core',
+    'Trezo_Core',
     __DIR__
 );

@@ -1,4 +1,4 @@
-StudioEmma_Core
+Trezo_Core
 ===============
 
 # General
@@ -15,7 +15,7 @@ You can get the current category by using this code in the view template:
 
 ```php
 <?php
-$_helper = $this->helper('StudioEmma\Core\Helper\Product');
+$_helper = $this->helper('Trezo\Core\Helper\Product');
 $currentCategory = $_helper->getCurrentCategory();
 
 echo $currentCategory->getName();
@@ -28,7 +28,7 @@ You can get the current product by using this code in the view template:
 
 ```php
 <?php
-$_helper = $this->helper('StudioEmma\Core\Helper\Product');
+$_helper = $this->helper('Trezo\Core\Helper\Product');
 $currentProduct = $_helper->getCurrentProduct();
 
 echo $currentProduct->getName();
@@ -43,7 +43,7 @@ Return the current store
 
 ```php
 <?php
-$_helper = $this->helper('StudioEmma\Core\Helper\Store');
+$_helper = $this->helper('Trezo\Core\Helper\Store');
 $currentStore = $_helper->getCurrentStore();
 ?>
 ```
@@ -54,7 +54,7 @@ Return the current locale associated with the current store.
 
 ```php
 <?php
-$_helper = $this->helper('StudioEmma\Core\Helper\Store');
+$_helper = $this->helper('Trezo\Core\Helper\Store');
 echo $_helper->getLocale();
 ?>
 ```
@@ -67,7 +67,7 @@ Checks if the customer is logged in
 
 ```php
 <?php
-$_helper = $this->helper('StudioEmma\Core\Helper\Customer');
+$_helper = $this->helper('Trezo\Core\Helper\Customer');
 $isLoggedIn = $_helper->isLoggedIn();
 ?>
 ```
@@ -78,7 +78,7 @@ Returns the current customer if logged in. If not logged in, it will return fals
 
 ```php
 <?php
-$_helper = $this->helper('StudioEmma\Core\Helper\Customer');
+$_helper = $this->helper('Trezo\Core\Helper\Customer');
 $customer = $_helper->getCurrentCustomer();
 ?>
 ```

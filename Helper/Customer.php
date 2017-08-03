@@ -1,6 +1,6 @@
 <?php
 
-namespace StudioEmma\Core\Helper;
+namespace Trezo\Core\Helper;
 
 class Customer extends \Magento\Framework\App\Helper\AbstractHelper
 {

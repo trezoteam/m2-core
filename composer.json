@@ -1,6 +1,6 @@
 {
-    "name": "studioemma/magento2-module-core",
-    "description": "Studio Emma Core module, with general functionality used in Magento 2 project",
+    "name": "trezoteam/magento2-module-core",
+    "description": "Trezo Core module, with general functionality used in Magento 2 project",
     "type": "magento2-module",
     "version": "2.1.1",
     "license": [
@@ -16,7 +16,7 @@
             "registration.php"
         ],
         "psr-4": {
-            "StudioEmma\\Core\\": ""
+            "Trezo\\Core\\": ""
         }
     }
 }
