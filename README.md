@@ -5,6 +5,22 @@ Trezo_Core
 
 The purpose of this module is to offer general functionality that is usefull for different Magento 2 projects.
 
+Install in all projects and modules m2 by trezo
+
+# Install
+
+```
+	composer require trezoteam/m2-core
+```
+
+
+# Create Trezo Admin Tab with icon
+
+```
+	trezo
+```
+
+
 # Functions
 
 ## Product
