@@ -2,7 +2,7 @@
     "name": "trezoteam/m2-core",
     "description": "Trezo Core module, with general functionality used in Magento 2 project",
     "type": "magento2-module",
-    "version": "2.2.1",
+    "version": "2.2.2",
     "license": [
         "OSL-3.0"
     ],
