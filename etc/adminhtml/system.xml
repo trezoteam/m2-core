@@ -23,7 +23,7 @@
         xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
     <system>
         <tab id="trezo" translate="label" sortOrder="200">
-            <label><![CDATA[<span class="trezo-logo-config"></span><span>Trezo Soluções</span>]]></label>
+            <label>Trezo Soluções</label>
         </tab>
     </system>
 </config>
