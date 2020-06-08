@@ -14,7 +14,7 @@ Install in all projects and modules m2 by trezo
 ```
 
 
-# Create Trezo Admin Tab with icon
+# Create Trezo Admin Tab
 
 ```
 	trezo
